@@ -39,7 +39,7 @@ public class TestFOService {
 	@After
 	public void tearDown() throws Exception {
 		
-		//populate.nettoyage();
+		populate.nettoyage();
 	}
 
 	@Test

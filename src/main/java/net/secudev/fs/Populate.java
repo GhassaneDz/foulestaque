@@ -37,9 +37,9 @@ public class Populate {
 		categories.deleteAll();
 	}
 	
-	public boolean hasData()
-	{
-		return (categories.findAll().isEmpty() && produits.findAll().isEmpty());
+	public boolean hasNoData()
+	{		
+		return (categories.count()==0 && produits.count()==0);
 	}
 	public void nettoiePuisCree()
 	{
@@ -96,7 +96,7 @@ public class Populate {
 		produits.save(brownie);
 		Produit tiramisu = new Produit("Tiramisu", 2.5f, desserts);
 		produits.save(tiramisu);
-		Produit coockie = new Produit("Coockie", 2f, desserts);
+		Produit coockie = new Produit("Cookie", 2f, desserts);
 		produits.save(coockie);
 		
 		

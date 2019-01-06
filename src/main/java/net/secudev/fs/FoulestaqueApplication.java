@@ -15,10 +15,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableSwagger2
 public class FoulestaqueApplication {
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(FoulestaqueApplication.class, args);
 	}
+
 
 	
 	//SWAGGER permet de générer de la doc pour l'API REST
