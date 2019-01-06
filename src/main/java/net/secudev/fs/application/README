@@ -1,0 +1,5 @@
+Reflet des Use Cases
+
+c'est ici que l'on fait la validation "métier", que l'on vérifie si un article existe avant de le créer etc
+
+on va utiliser ces service dans les controlleurs dont la seule responsabilité est de traiter des messages html et de convertir les data si besoin
