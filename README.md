@@ -6,14 +6,14 @@
 
 
 
-![Alt text](front office use case.JPG "front office use case")
+![Alt text](front-office-use-case.JPG "front office use case")
 
 
 
 
-![Alt text](back office use case.JPG "back office use case")
+![Alt text](back-office-use-case.JPG "back office use case")
 
 
 
 
-![Alt text](diagramme de classes.JPG "Diagramme de classes")
+![Alt text](diagramme-de-classes.JPG "Diagramme de classes")
